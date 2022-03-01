@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ProductImage debe de mostrar el componente con la imagen que viene en el producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product imagen"
+    className="productImg undefined"
+    src="./Coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`Pruebas en ProductImage debe de mostrar el componente correctamente con la imagen personalizada 1`] = `
+<img
+  alt="Product imagen"
+  className="productImg custon-class"
+  src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg"
+/>
+`;
